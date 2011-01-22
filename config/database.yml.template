@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: stickymemory_development
+  hostname: localhost
+
+test: &test
+  adapter: postgresql
+  encoding: unicode
+  database: stickymemory_test
+  hostname: localhost
+  
+cucumber:
+  <<: *test
+  
+
+
