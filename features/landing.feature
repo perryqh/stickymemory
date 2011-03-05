@@ -4,3 +4,4 @@ Feature: Landing Page
   Scenario: load the home page
     Given I am on the home page 
     Then I should see "Sticky Memory" 
+    And I should see "Search for Text to Memorize" 
