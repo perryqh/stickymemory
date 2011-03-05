@@ -11,19 +11,13 @@
     = yield(:head)
 
   %body
-    #supersized
-      Sticky Memory
     #container
-      #header.span-24.last
-        
       #content.span-24.last
         - if flash.present?
           .span-22.prepend-1.append-1.last.append-bottom.notifications
             - flash.each do |name, msg|
               = content_tag :div, msg, :id => "flash_#{name}"
         = yield
-        .clear
-      .clear
     .clear
     #footer
       #footer-content
