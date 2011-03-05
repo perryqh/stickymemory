@@ -2,4 +2,4 @@
   .search-form
     %label{:for => 'search-mem-txt'} Search for Text to Memorize
     %input{:type => :text, :id => 'search-mem-txt'}
-    %button{:id => :go} Go
+    %button{:id => :go, 'data-url' => new_memory_search_url} Go

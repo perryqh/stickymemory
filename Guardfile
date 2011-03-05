@@ -27,3 +27,8 @@ guard 'cucumber', :cli => "--drb --profile autotest" do
   watch(%r{features/support/.+})          { 'features' }
   watch(%r{features/step_definitions/.+}) { 'features' }
 end
+
+guard 'jammit' do
+  watch('^public/javascripts/(.*)\.js')
+  watch('^public/stylesheets/(.*)\.css')
+end

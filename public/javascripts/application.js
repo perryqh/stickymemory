@@ -1,2 +1,22 @@
-// Place your application-specific JavaScript functions and classes here
-// This file is automatically included by javascript_include_tag :defaults
+(function($) {
+    $(document).ready(function() {
+    	$.initSearch();
+    });
+
+    $.search = function() {
+    	//ajax search
+    };
+
+    $.initSearch = function() {
+		$('.search-form #go').click(function() {
+			$.search();
+		});
+		$('.search-form #search-mem-txt').everyTime(500, function(i) {
+      		$.search();
+    	});
+    };
+
+    $.fn.memorySearch = function() {
+
+    };
+}(jQuery));

@@ -7,6 +7,7 @@ gem 'simple-navigation', '~>3.1.0'
 gem 'hoptoad_notifier',  '>=2.3.12'
 gem 'nokogiri',          '>= 1.4.4'
 gem 'high_voltage',      '>= 0.9.3'
+gem 'jammit',            '>= 0.6.0'
 
 group :production do
 end
@@ -45,6 +46,7 @@ group :test do
   gem 'guard-rspec',              '>= 0.2.0'
   gem 'guard-cucumber',           '>= 0.2.3'
   gem 'guard-spork',              '>= 0.1.4'
+  gem 'guard-jammit',             '>= 0.1.0'
   gem 'rb-fsevent',               '>= 0.3.10'
   gem 'growl',                    '>= 1.0.3'
   gem "spork",                    '>= 0.9.0.rc3'

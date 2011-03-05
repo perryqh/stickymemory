@@ -1,0 +1,15 @@
+embed_assets: on
+
+javascripts:
+  workspace:
+    - public/javascripts/jquery.min.js
+    - public/javascripts/jquery-ui.min.js
+    - public/javascripts/jquery.timers-1.2.js
+    - public/javascripts/rails.js
+    - public/javascripts/application.js
+    
+
+stylesheets:
+  common:
+  workspace:
+    - public/stylesheets/application.css

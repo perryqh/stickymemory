@@ -102,7 +102,7 @@ a {
     border-bottom: 2px solid #fff8e8; }
   .search-form:focus {
     outline: none; }
-  .search-form button {
+  .search-form input[type=submit], .search-form button {
     -moz-background-clip: border;
     -moz-background-inline-policy: continuous;
     -moz-background-origin: padding;

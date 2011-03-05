@@ -3,5 +3,11 @@ Feature: Landing Page
 
   Scenario: load the home page
     Given I am on the home page 
-    Then I should see "Sticky Memory" 
-    And I should see "Search for Text to Memorize" 
+    Then I should see "Search for Text to Memorize" 
+    And I should see "Go"
+
+  Scenario: search for text to memorize
+  	Given I am on the home page
+  	When I fill in "Search for Text to Memorize" with "James"
+  	And I press "Go"
+  	Then I should see "James"

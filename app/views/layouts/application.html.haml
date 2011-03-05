@@ -5,8 +5,8 @@
     %title
       = yield(:title) || "Sticky Memory"
     %meta{"http-equiv"=>"Content-Type", :content=>"text/html; charset=utf-8"}/
-    = stylesheet_link_tag "application"
-    = javascript_include_tag :defaults
+    = include_stylesheets :common, :workspace, :media => 'all' 
+    = include_javascripts :workspace 
     = csrf_meta_tag
     = yield(:head)
 
