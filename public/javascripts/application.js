@@ -4,7 +4,11 @@
     });
 
     $.updateWithSearchResults = function(resultHtml) {
-    	
+        var target = $('#home .search-results');
+        target.html(resultHtml);
+        if(!target.is(':visible')) {
+          $('#home .search-results').show('slide', {direction: 'down'}, 1000);
+        }
     };
 
     $.isSearchAllowed = function() {

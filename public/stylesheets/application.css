@@ -59,7 +59,14 @@ a {
   .error_messages ul {
     margin: 0; }
 
-.search-form {
+.search-results-wrapper {
+  margin-top: 30px; }
+
+.search-results {
+  font-size: 20px;
+  display: none; }
+
+.search-form, .search-results {
   -moz-background-clip: border;
   -moz-background-inline-policy: continuous;
   -moz-background-origin: padding;
@@ -71,12 +78,13 @@ a {
   background: #ebe3d1 none repeat scroll 0 0;
   border: 5px solid #cbc2ae;
   padding: 30px; }
-  .search-form label {
+  .search-form label, .search-results label {
     font-size: 46px;
     font-weight: bold;
     font-style: normal;
     color: #aa0000; }
-  .search-form input[type=text] {
+  .search-form input[type=text], .search-results input[type=text] {
+    width: 700px;
     -moz-background-clip: border;
     -moz-background-inline-policy: continuous;
     -webkit-box-shadow: inset 0 3px 3px #706751;
@@ -100,9 +108,9 @@ a {
     border: none;
     border-radius: 8px;
     border-bottom: 2px solid #fff8e8; }
-  .search-form:focus {
+  .search-form:focus, .search-results:focus {
     outline: none; }
-  .search-form input[type=submit], .search-form button {
+  .search-form input[type=submit], .search-form button, .search-results input[type=submit], .search-results button {
     -moz-background-clip: border;
     -moz-background-inline-policy: continuous;
     -moz-background-origin: padding;
