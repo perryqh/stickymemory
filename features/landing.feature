@@ -9,5 +9,5 @@ Feature: Landing Page
   Scenario: search for text to memorize
   	Given I am on the home page
   	When I fill in "Search for Text to Memorize" with "James"
-  	And I press "Go"
-  	Then I should see "James"
+  	And I press ajax "Go"
+  	Then I should see "Search for Text to Memorize"

@@ -59,12 +59,13 @@ a {
   .error_messages ul {
     margin: 0; }
 
-.search-results-wrapper {
-  margin-top: 30px; }
-
 .search-results {
+  margin-top: 30px;
   font-size: 20px;
   display: none; }
+  .search-results .header {
+    font-size: 30px;
+    color: #aa0000; }
 
 .search-form button {
   margin-left: 15px; }

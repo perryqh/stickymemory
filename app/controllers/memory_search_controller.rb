@@ -1,7 +1,9 @@
 class MemorySearchController < ApplicationController
+  respond_to :json
 
   def new
-  	render :partial => 'search_results'
+    result = Search.perform(params[:search_text])
+  	render :json => {:search_result => result}
   end
 
 end

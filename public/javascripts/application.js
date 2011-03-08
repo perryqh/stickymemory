@@ -3,11 +3,15 @@
     	$.initSearch();
     });
 
-    $.updateWithSearchResults = function(resultHtml) {
-        var target = $('#home .search-results');
-        target.html(resultHtml);
-        if(!target.is(':visible')) {
-          $('#home .search-results').show('slide', {direction: 'down'}, 1000);
+    $.updateWithSearchResults = function(response) {
+        var searchResult = response['search_result'];
+        if(null != searchResult) {
+            $('#home .search-results .header').html(searchResult['header']);
+            $('#home .search-results .text').html(searchResult['text']);
+
+            if(!$('#home .search-results').is(':visible')) {
+              $('#home .search-results').show('slide', {direction: 'down'}, 1000);
+            }
         }
     };
 
@@ -34,7 +38,7 @@
 			$.search();
 		});
 		$('.search-form #search-mem-txt').everyTime(500, function(i) {
-      		//$.search();
+      		$.search();
     	});
     };
 
