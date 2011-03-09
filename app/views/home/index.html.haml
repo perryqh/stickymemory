@@ -1,10 +1,10 @@
 #home
-  .span-22.append-1.prepend-1.prepend-top
-    .search-form
-      %label{:for => 'search-mem-txt'} Search for Text to Memorize
-      %input{:type => :text, :id => 'search-mem-txt'}
-      %button{:id => :go, 'data-url' => new_memory_search_url} Go
+  .span-24.prepend-top
+    .search-form.span-22.last.prepend-1.append-1
+      %label{:for => 'search-mem-txt', :class => 'span-22 last'} Search for Text to Memorize
+      %input{:type => :text, :id => 'search-mem-txt', :class => 'span-19'}
+      %button{:id => :go, 'data-url' => new_memory_search_url, :class => 'span-2 last'} Go
     .clear
-  .search-results.span-22.append-1.prepend-1.prepend-top
+  .search-results.span-24.prepend-top
     .header
     .text

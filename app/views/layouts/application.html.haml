@@ -6,6 +6,8 @@
       = yield(:title) || "Sticky Memory"
     %meta{"http-equiv"=>"Content-Type", :content=>"text/html; charset=utf-8"}/
     = include_stylesheets :common, :workspace, :media => 'all' 
+    /[if lt IE 8]
+      = stylesheet_link_tag "blueprint/ie.css", :media => "screen, projection"
     = include_javascripts :workspace 
     = csrf_meta_tag
     = yield(:head)

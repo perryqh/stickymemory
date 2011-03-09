@@ -11,5 +11,7 @@ javascripts:
 
 stylesheets:
   common:
+    - public/stylesheets/blueprint/screen.css
+    - public/stylesheets/blueprint/print.css
   workspace:
     - public/stylesheets/application.css
