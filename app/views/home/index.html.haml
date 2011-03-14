@@ -4,6 +4,9 @@
       %label{:for => 'search-mem-txt', :class => 'span-22 last'} Search for Text to Memorize
       %input{:type => :text, :id => 'search-mem-txt', :class => 'span-19'}
       %button{:id => :go, 'data-url' => new_memory_search_url, :class => 'span-2 last'} Go
+      .span-22.search-type
+        %input{:type => :radio, :id => :esv, :name => :search_type, :value => :esv}== ESV Bible
+        %input{:type => :radio, :id => :shorter, :name => :search_type, :value => :shorter}== Westminster Shorter Catechism
     .clear
   .search-results.span-22.last.prepend-1.append-1.prepend-top
     .header

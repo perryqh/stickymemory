@@ -6,6 +6,7 @@ javascripts:
     - public/javascripts/jquery-ui.min.js
     - public/javascripts/jquery.timers-1.2.js
     - public/javascripts/rails.js
+    - public/javascripts/jquery.uniform.js
     - public/javascripts/application.js
     - public/javascripts/search.js
     
@@ -14,5 +15,6 @@ stylesheets:
   common:
     - public/stylesheets/blueprint/screen.css
     - public/stylesheets/blueprint/print.css
+    - public/stylesheets/uniform.default.css
   workspace:
     - public/stylesheets/application.css

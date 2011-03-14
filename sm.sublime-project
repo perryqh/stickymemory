@@ -11,7 +11,7 @@
 			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/views/home/index.html.haml",
 			"settings":
 			{
-				"buffer_size": 407,
+				"buffer_size": 431,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +51,15 @@
 			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/public/javascripts/application.js",
 			"settings":
 			{
-				"buffer_size": 1990,
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/config/assets.yml",
+			"settings":
+			{
+				"buffer_size": 454,
 				"line_ending": "Unix"
 			}
 		},
@@ -92,6 +100,14 @@
 			"settings":
 			{
 				"buffer_size": 794,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/public/javascripts/search.js",
+			"settings":
+			{
+				"buffer_size": 1990,
 				"line_ending": "Unix"
 			}
 		},
@@ -255,7 +271,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -263,15 +279,15 @@
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/views/home/index.html.haml",
 					"settings":
 					{
-						"buffer_size": 407,
+						"buffer_size": 431,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								407,
-								407
+								431,
+								431
 							]
 						],
 						"settings":
@@ -397,21 +413,49 @@
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/public/javascripts/application.js",
 					"settings":
 					{
-						"buffer_size": 1990,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1002,
-								1002
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/config/assets.yml",
+					"settings":
+					{
+						"buffer_size": 454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0,
@@ -423,11 +467,11 @@
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/public/stylesheets/sass/application.sass",
 					"settings":
 					{
@@ -455,7 +499,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/models/search_spec.rb",
 					"settings":
 					{
@@ -487,15 +531,15 @@
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/views/home/index.html.haml",
 					"settings":
 					{
-						"buffer_size": 407,
+						"buffer_size": 431,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								407,
-								407
+								431,
+								431
 							]
 						],
 						"settings":
@@ -509,7 +553,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/controllers/memory_search_controller_spec.rb",
 					"settings":
 					{
@@ -533,15 +577,43 @@
 						"zoom_level": 1
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/public/javascripts/application.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 4,
+			"selected": 5,
 			"sheets":
 			[
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/views/memory_search/_search_results.html.haml",
 					"settings":
 					{
@@ -567,7 +639,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/models/esv_strategy_spec.rb",
 					"settings":
 					{
@@ -655,15 +727,15 @@
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/public/javascripts/application.js",
 					"settings":
 					{
-						"buffer_size": 1990,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								550,
-								550
+								0,
+								0
 							]
 						],
 						"settings":
@@ -673,7 +745,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0,
-						"translation.y": 66,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/public/javascripts/search.js",
+					"settings":
+					{
+						"buffer_size": 1990,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
 						"zoom_level": 1
 					},
 					"type": "text"
@@ -685,7 +785,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/controllers/memory_search_controller_spec.rb",
 					"settings":
 					{
@@ -715,15 +815,15 @@
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/public/javascripts/application.js",
 					"settings":
 					{
-						"buffer_size": 1990,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1263,
-								1263
+								0,
+								0
 							]
 						],
 						"settings":
@@ -739,7 +839,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 13,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/features/landing.feature",
 					"settings":
 					{
@@ -767,7 +867,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/models/esv_strategy_spec.rb",
 					"settings":
 					{
@@ -821,7 +921,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/public/stylesheets/sass/application.sass",
 					"settings":
 					{
@@ -901,6 +1001,22 @@
 		"selected_items":
 		[
 			[
+				"ass",
+				"config/assets.yml"
+			],
+			[
+				"sear",
+				"public/javascripts/search.js"
+			],
+			[
+				"app.j",
+				"public/javascripts/application.js"
+			],
+			[
+				"index",
+				"app/views/home/index.html.haml"
+			],
+			[
 				"memsecons",
 				"spec/controllers/memory_search_controller_spec.rb"
 			],
@@ -925,10 +1041,6 @@
 				"public/stylesheets/sass/application.sass"
 			],
 			[
-				"index",
-				"app/views/home/index.html.haml"
-			],
-			[
 				"esvstsp",
 				"spec/models/esv_strategy_spec.rb"
 			],
@@ -941,20 +1053,12 @@
 				"app/models/search.rb"
 			],
 			[
-				"app.j",
-				"public/javascripts/application.js"
-			],
-			[
 				"es",
 				"app/models/esv_strategy.rb"
 			],
 			[
 				"searchsp",
 				"spec/models/search_spec.rb"
-			],
-			[
-				"sear",
-				"app/models/search.rb"
 			],
 			[
 				"esv",
