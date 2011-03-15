@@ -16,17 +16,8 @@ group :development do
   gem 'jquery-rails',      '>= 0.2.7'
   gem 'nifty-generators',  '>= 0.4.5'
   gem 'mongrel',           '~>1.2.0.pre2'
-  gem 'heroku'
+  gem 'heroku',            '>= 1.18.3'
   gem 'annotate-models',   '>= 1.0.4'
-end
-
-group :cucumber do
-  gem "spork",                 '>= 0.9.0.rc3'
-  gem 'capybara',              '>= 0.4.1.2'
-  gem 'rspec-rails',           '>= 2.5.0'
-  gem 'cucumber-rails',        '>= 0.3.2'
-  gem 'cucumber',              '>= 0.10.0'
-  gem 'launchy',               '>= 0.3.7'
 end
 
 group :test do
@@ -41,10 +32,10 @@ group :test do
   gem 'remarkable_activemodel',   '>=4.0.0.alpha4'
   gem 'remarkable_activerecord',  '>=4.0.0.alpha4'
   gem 'rcov',                     '>=0.9.9'
-
+  gem 'capybara',                 :git => 'git://github.com/jnicklas/capybara.git'
+  gem 'launchy',                  '>= 0.3.2'
   gem 'guard',                    '>= 0.3.0'
   gem 'guard-rspec',              '>= 0.2.0'
-  gem 'guard-cucumber',           '>= 0.2.3'
   gem 'guard-spork',              '>= 0.1.4'
   gem 'guard-jammit',             '>= 0.1.0'
   gem 'rb-fsevent',               '>= 0.3.10'

@@ -18,7 +18,11 @@
   };
 
   $.matchesCurrentSearch = function(data) {
-    return (typeof data != 'undefined') && $('#search-mem-txt').val() == data['search_mem_text'];
+    return (typeof data != 'undefined') && $('#search-mem-txt').val() == data['search_mem_text'] && $.getSearchCategory() == data['search_category'];
+  }
+
+  $.getSearchCategory = function() {
+    return $("input[name=search-category]:radio:checked").val();
   }
 
   var g_searchIsPending;
@@ -29,6 +33,7 @@
       g_lastTickValues = new Array();
     }
     g_lastTickValues['search_mem_text'] = $('#search-mem-txt').val();
+    g_lastTickValues['search_category'] = $.getSearchCategory();
   }
 
   $.isSearchAllowed = function() {
@@ -51,7 +56,8 @@
       var ajaxOptions = {
         type: 'get',
         url: $('.search-form #go').attr('data-url'),
-        data: { search_mem_text: $('.search-form #search-mem-txt').val() },
+        data: { search_mem_text: $('.search-form #search-mem-txt').val(),
+          search_category: $.getSearchCategory() },
         success: function(htmlContent) {
           $.updateWithSearchResults(htmlContent);
         }
