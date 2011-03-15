@@ -1,6 +1,6 @@
 class Search
   class << self
-    def perform(query_string)
+    def perform(query_string, category)
       strategy.retrieve query_string
     end
 
