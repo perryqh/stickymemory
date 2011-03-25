@@ -1,12 +1,16 @@
 class Search
   class << self
     def perform(query_string, category)
-      strategy.retrieve query_string
+      strategy(category).retrieve query_string
     end
 
     private
-    def strategy
-      @esv_strategy ||= EsvStrategy.new
+    def strategy(category)
+      if 'shorter' == category
+        @westminster_strategy ||= WestminsterStrategy.new
+      else
+        @esv_strategy ||= EsvStrategy.new
+      end
     end
   end
 end

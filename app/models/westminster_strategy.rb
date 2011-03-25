@@ -1,0 +1,3 @@
+class WestminsterStrategy
+
+end

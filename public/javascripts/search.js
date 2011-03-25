@@ -1,3 +1,4 @@
+
 (function($) {
   $(document).ready(function() {
     $.initSearch();
@@ -15,6 +16,10 @@
         }
       }
     }
+  };
+
+  $.isWestminsterSelected = function() {
+    return $.getSearchCategory() == 'shorter';
   };
 
   $.matchesCurrentSearch = function(data) {
@@ -67,6 +72,9 @@
   };
 
   $.initSearch = function() {
+    $('.search-form input[type=radio]').click(function() {
+      $.search();
+    });
 	  $('.search-form #go').click(function() {
 	    $.search();
 	   });
