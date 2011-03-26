@@ -19,3 +19,4 @@ config/database.yml
 db/schema.rb
 features_report.html
 coverage.data
+sm.sublime-project
