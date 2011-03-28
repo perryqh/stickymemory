@@ -4,7 +4,7 @@ describe "Landing Search" do
          visit home_index_path
          page.should have_content("Search for Text to Memorize")
          page.should have_content("ESV Bible")
-         page.should have_content("Westminster Shorter Catechism ")
+         page.should have_content("Westminster Shorter Catechism")
          page.should have_content("Go")
       end
    end

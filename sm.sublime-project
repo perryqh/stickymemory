@@ -7,106 +7,22 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/phertler/Software/Ruby/stickymemory/Gemfile",
-			"settings":
-			{
-				"buffer_size": 1729,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/phertler/Software/Ruby/stickymemory/config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 150,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/phertler/Software/Ruby/stickymemory/app/views/home/index.html.haml",
-			"settings":
-			{
-				"buffer_size": 235,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/phertler/Software/Ruby/stickymemory/app/views/layouts/application.html.haml",
-			"settings":
-			{
-				"buffer_size": 618,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/phertler/Software/Ruby/stickymemory/features/landing.feature",
-			"settings":
-			{
-				"buffer_size": 460,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/phertler/Software/Ruby/stickymemory/public/stylesheets/sass/application.sass",
-			"settings":
-			{
-				"buffer_size": 3091,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/phertler/Software/Ruby/stickymemory/lib/tasks/deploy.rake",
-			"settings":
-			{
-				"buffer_size": 1306,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/phertler/Software/Ruby/stickymemory/public/javascripts/application.js",
-			"settings":
-			{
-				"buffer_size": 889,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/phertler/Software/Ruby/stickymemory/app/controllers/memory_search_controller.rb",
-			"settings":
-			{
-				"buffer_size": 113,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/phertler/Software/Ruby/stickymemory/spec/controllers/memory_search_controller_spec.rb",
-			"settings":
-			{
-				"buffer_size": 256,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/phertler/Software/Ruby/stickymemory/app/views/memory_search/_search_results.html.haml",
-			"settings":
-			{
-				"buffer_size": 12,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/phertler/Software/Ruby/stickymemory/config/assets.yml",
-			"settings":
-			{
-				"buffer_size": 328,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"file_history":
 	[
+		"/Users/phertler/Software/Ruby/stickymemory/Gemfile",
+		"/Users/phertler/Software/Ruby/stickymemory/config/routes.rb",
+		"/Users/phertler/Software/Ruby/stickymemory/app/views/home/index.html.haml",
+		"/Users/phertler/Software/Ruby/stickymemory/app/views/layouts/application.html.haml",
+		"/Users/phertler/Software/Ruby/stickymemory/features/landing.feature",
+		"/Users/phertler/Software/Ruby/stickymemory/public/stylesheets/sass/application.sass",
+		"/Users/phertler/Software/Ruby/stickymemory/lib/tasks/deploy.rake",
+		"/Users/phertler/Software/Ruby/stickymemory/public/javascripts/application.js",
+		"/Users/phertler/Software/Ruby/stickymemory/app/controllers/memory_search_controller.rb",
+		"/Users/phertler/Software/Ruby/stickymemory/spec/controllers/memory_search_controller_spec.rb",
+		"/Users/phertler/Software/Ruby/stickymemory/app/views/memory_search/_search_results.html.haml",
+		"/Users/phertler/Software/Ruby/stickymemory/config/assets.yml",
 		"/Users/phertler/Software/Ruby/stickymemory/features/landing.feature.txt",
 		"/Users/phertler/Software/Ruby/stickymemory/config/initializers/omniauth.rb",
 		"/Users/phertler/Software/Ruby/stickymemory/config/database.yml",
@@ -255,395 +171,23 @@
 	"groups":
 	[
 		{
-			"selected": 13,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/phertler/Software/Ruby/stickymemory/Gemfile",
-					"settings":
-					{
-						"buffer_size": 1729,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1672,
-								1672
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0,
-						"translation.y": 659,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/phertler/Software/Ruby/stickymemory/config/routes.rb",
-					"settings":
-					{
-						"buffer_size": 150,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								118,
-								118
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/phertler/Software/Ruby/stickymemory/app/views/home/index.html.haml",
-					"settings":
-					{
-						"buffer_size": 235,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								196,
-								196
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/handcrafted-haml-textmate-bundle/Syntaxes/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/phertler/Software/Ruby/stickymemory/app/views/layouts/application.html.haml",
-					"settings":
-					{
-						"buffer_size": 618,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								560,
-								560
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/handcrafted-haml-textmate-bundle/Syntaxes/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/phertler/Software/Ruby/stickymemory/features/landing.feature",
-					"settings":
-					{
-						"buffer_size": 460,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								458,
-								458
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/Users/phertler/Software/Ruby/stickymemory/public/stylesheets/sass/application.sass",
-					"settings":
-					{
-						"buffer_size": 3091,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2325,
-								2325
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/handcrafted-haml-textmate-bundle/Syntaxes/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0,
-						"translation.y": 1640,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/Users/phertler/Software/Ruby/stickymemory/lib/tasks/deploy.rake",
-					"settings":
-					{
-						"buffer_size": 1306,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1301,
-								1301
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0,
-						"translation.y": 105,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/Users/phertler/Software/Ruby/stickymemory/public/javascripts/application.js",
-					"settings":
-					{
-						"buffer_size": 889,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								804,
-								804
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0,
-						"translation.y": 260,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/Users/phertler/Software/Ruby/stickymemory/app/controllers/memory_search_controller.rb",
-					"settings":
-					{
-						"buffer_size": 113,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								103,
-								103
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/Users/phertler/Software/Ruby/stickymemory/spec/controllers/memory_search_controller_spec.rb",
-					"settings":
-					{
-						"buffer_size": 256,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								256,
-								256
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/Users/phertler/Software/Ruby/stickymemory/app/views/memory_search/_search_results.html.haml",
-					"settings":
-					{
-						"buffer_size": 12,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12,
-								12
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/handcrafted-haml-textmate-bundle/Syntaxes/Ruby Haml.tmLanguage"
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/Users/phertler/Software/Ruby/stickymemory/config/assets.yml",
-					"settings":
-					{
-						"buffer_size": 328,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								286,
-								286
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/phertler/Software/Ruby/stickymemory/app/views/home/index.html.haml",
-					"settings":
-					{
-						"buffer_size": 235,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								235,
-								235
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/handcrafted-haml-textmate-bundle/Syntaxes/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/phertler/Software/Ruby/stickymemory/app/views/layouts/application.html.haml",
-					"settings":
-					{
-						"buffer_size": 618,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								252,
-								252
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/handcrafted-haml-textmate-bundle/Syntaxes/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0,
-						"translation.y": 0,
-						"zoom_level": 1
-					},
-					"type": "text"
-				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -656,16 +200,36 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0,
+			0.5,
 			1
 		],
 		"rows":
 		[
 			0,
+			0.5,
 			1
 		]
 	},
@@ -676,6 +240,10 @@
 		"height": 0,
 		"selected_items":
 		[
+			[
+				"gemfi",
+				"/Users/phertler/Software/Ruby/stickymemory/Gemfile"
+			],
 			[
 				"memsecons",
 				"spec/controllers/memory_search_controller_spec.rb"
@@ -791,10 +359,6 @@
 			[
 				"om",
 				"config/initializers/omniauth.rb"
-			],
-			[
-				"gemfi",
-				"Gemfile"
 			],
 			[
 				"route",

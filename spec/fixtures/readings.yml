@@ -1,0 +1,25 @@
+# == Schema Information
+# Schema version: 20110328133929
+#
+# Table name: readings
+#
+#  id                :integer         not null, primary key
+#  plan_id           :integer
+#  reading_date      :date
+#  start_coordinates :string(255)
+#  end_coordinates   :string(255)
+#  created_at        :datetime
+#  updated_at        :datetime
+#
+
+one:
+  plan_id: 1
+  reading_date: 2011-03-28
+  start_coordinates: MyString
+  end_coordinates: MyString
+
+two:
+  plan_id: 1
+  reading_date: 2011-03-28
+  start_coordinates: MyString
+  end_coordinates: MyString
