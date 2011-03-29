@@ -14,6 +14,7 @@
 #
 
 class Fact < ActiveRecord::Base
+  WESTMINSTER_SHORTER = 'shorter'
   attr_accessible :type, :question, :header, :text
 
   validates :type, :presence => true

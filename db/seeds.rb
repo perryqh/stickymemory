@@ -1,6 +1,6 @@
 
 def create_fact(number, question, answer)
-  Fact.create(:fact_type => Fact::WESTMINSTER_SHORTER], :fact_question => question, :fact_header => number, :fact_text => answer)
+  Fact.create(:type => Fact::WESTMINSTER_SHORTER, :question => question, :header => number, :text => answer)
 end
 
 create_fact("1", "What is the chief end of man?" , "Man's chief end is to glorify God, and to enjoy him forever.")
@@ -111,7 +111,7 @@ create_fact("105", "What do we pray for in the fifth petition?", "In the fifth p
 create_fact("106", "What do we pray for in the sixth petition?", "In the sixth petition, which is, And lead us not into temptation, but deliver us from evil, we pray that God would either keep us from being tempted to sin, or support and deliver us when we are tempted.")
 
 def create_book(num, name, chapter_count, verse_count, word_count, chapter_hash)
-  bk = BibleBook.create(:book_num => num, :name => name, :chapter_count => chapter_count, :verse_count => verse_count, :word_count => word_count)
+  bk = BibleBook.create(:num => num, :name => name, :chapter_count => chapter_count, :verse_count => verse_count, :word_count => word_count)
   chapter_hash.keys.sort.each do |key|
     bk.bible_chapters.build(:chapter_num => key, :verse_count => chapter_hash[key])
   end
