@@ -62,11 +62,11 @@
 
   $.onlyShowFirstLetters = function(onlyShow) {
     if(onlyShow) {
-      $('.search-results span.rest-of-word').animate({opacity: '0.0'}, 1000, function() {
+      $('.search-results span.rest-of-word').animate({opacity: '0.0', filter: 'alpha(opacity=0)'}, 1000, function() {
       });
     }
     else {
-      $('.search-results span.rest-of-word').animate({opacity: '1.0'}, 1000, function() {
+      $('.search-results span.rest-of-word').animate({opacity: '1.0', filter: 'alpha(opacity=100)'}, 1000, function() {
         $(this).css('filter', 'none');
       });
     }

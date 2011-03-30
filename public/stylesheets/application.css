@@ -65,7 +65,8 @@ a {
     font-size: 30px;
     color: #aa0000; }
   .search-results span.rest-of-word {
-    opacity: 0; }
+    opacity: 0;
+    zoom: 1; }
   .search-results span.first.accent {
     font-weight: bold; }
 
