@@ -56,6 +56,17 @@
     return allowed;
   };
 
+  $.onlyShowFirstLetters = function(onlyShow) {
+    if(onlyShow) {
+      $('span.rest-of-word').removeClass('to-front');
+      $('span.rest-of-word').addClass('to-back');
+    }
+    else {
+      $('span.rest-of-word').removeClass('to-back');
+      $('span.rest-of-word').addClass('to-front');
+    }
+  };
+
   $.search = function() {
     if ($.isSearchAllowed()) {
       var ajaxOptions = {
@@ -72,6 +83,9 @@
   };
 
   $.initSearch = function() {
+    $('.search-results .first-letter-choice input[type=checkbox]').click(function() {
+      $.onlyShowFirstLetters($(this).is(':checked'));
+    });
     $('.search-form input[type=radio]').click(function() {
       $.search();
     });

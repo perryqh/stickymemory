@@ -2,9 +2,9 @@ class WordTokenizer
   attr_reader :fact
   attr_reader :words
   attr_reader :first_letter_text
-  
+
   delegate :heading, :to => :fact
-  
+
   def initialize(raw_text)
     @raw_text = raw_text
     @words = []
@@ -14,6 +14,28 @@ class WordTokenizer
 
   def first_letter_indexes
     @first_letters ||= @words.collect{|w| w[:start]}
+  end
+
+  def decorated_full_text
+    puts @raw_text
+    puts @words.inspect
+
+    ft = @raw_text.clone
+    num_chars_inserted = 0
+    end_span = "</span>"
+    @words.each_with_index do |word, index|
+      first_span = "<span class='first' data-word-num='#{index}'>"
+      remaining_span = "<span class='rest-of-word' data-word-num='#{index}'>"
+      ft.insert(word[:start] + num_chars_inserted, first_span)
+      num_chars_inserted += first_span.length
+      ft.insert(word[:start] + num_chars_inserted + 1, end_span)
+      num_chars_inserted += end_span.length
+      ft.insert(word[:start] + num_chars_inserted + 1, remaining_span)
+      num_chars_inserted += remaining_span.length
+      ft.insert(word[:end] + num_chars_inserted, end_span)
+      num_chars_inserted += end_span.length
+    end
+    ft
   end
 
   def full_text
@@ -68,7 +90,8 @@ class WordTokenizer
         @first_letter_text << c
         if in_word
           if /[^A-Za-z\']/.match(c)
-            end_word.call index 
+            puts "calling end word for #{c}"
+            end_word.call index
           else
             @first_letter_text[-1] = ' '
           end
@@ -96,7 +119,7 @@ class WordTokenizer
   end
 
   def close_word(close_index)
-    @words.last[:end] = close_index
+    @words.last[:end] = close_index unless @words.last[:end]
     previous_end = @words.length == 1 ? 0 : (@words[-2][:end] + 1)
     @words.last[:reveal] = full_text[previous_end..close_index]
   end

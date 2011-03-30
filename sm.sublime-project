@@ -7,10 +7,159 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/Gemfile",
+			"settings":
+			{
+				"buffer_size": 1554,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/fact.rb",
+			"settings":
+			{
+				"buffer_size": 585,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/bible_chapter.rb",
+			"settings":
+			{
+				"buffer_size": 499,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/bible_book.rb",
+			"settings":
+			{
+				"buffer_size": 683,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/search.rb",
+			"settings":
+			{
+				"buffer_size": 334,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/esv_strategy.rb",
+			"settings":
+			{
+				"buffer_size": 1009,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/word_tokenizer.rb",
+			"settings":
+			{
+				"buffer_size": 3051,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/controllers/memory_search_controller.rb",
+			"settings":
+			{
+				"buffer_size": 424,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/models/word_tokenizer_spec.rb",
+			"settings":
+			{
+				"buffer_size": 3148,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/factories.rb",
+			"settings":
+			{
+				"buffer_size": 82,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/public/stylesheets/sass/application.sass",
+			"settings":
+			{
+				"buffer_size": 3225,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/views/layouts/application.html.haml",
+			"settings":
+			{
+				"buffer_size": 748,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/db/migrate/20110328133218_create_facts.rb",
+			"settings":
+			{
+				"buffer_size": 284,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/config/database.yml",
+			"settings":
+			{
+				"buffer_size": 226,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/db/seeds.rb",
+			"settings":
+			{
+				"buffer_size": 39418,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/spec_helper.rb",
+			"settings":
+			{
+				"buffer_size": 1078,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/integration/landing_search_spec.rb",
+			"settings":
+			{
+				"buffer_size": 618,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"file_history":
 	[
+		"/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/views/home/index.html.haml",
+		"/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/models/fact_spec.rb",
+		"/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/models/bible_chapter_spec.rb",
+		"/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/bible_book.rb",
+		"/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/models/bible_book_spec.rb",
 		"/Users/phertler/Software/Ruby/stickymemory/Gemfile",
 		"/Users/phertler/Software/Ruby/stickymemory/config/routes.rb",
 		"/Users/phertler/Software/Ruby/stickymemory/app/views/home/index.html.haml",
@@ -120,6 +269,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"full_text",
+			"build_first_letter_t",
+			"build_full_t",
+			"@first_letter_text",
+			"build_first_letter_te",
+			"build_first",
 			"seasonalbids",
 			";",
 			":",
@@ -165,29 +320,604 @@
 	{
 		"mount_points":
 		[
-			"/Users/phertler/Software/Ruby/stickymemory"
+			"/Users/phertler/Software/Ruby/stickymemory",
+			"/Users/phertler/Software/Ruby/hertler.org/stickymemory"
 		]
 	},
 	"groups":
 	[
 		{
+			"selected": 7,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/Gemfile",
+					"settings":
+					{
+						"buffer_size": 1554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 275,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/fact.rb",
+					"settings":
+					{
+						"buffer_size": 585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/bible_chapter.rb",
+					"settings":
+					{
+						"buffer_size": 499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								450,
+								450
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/bible_book.rb",
+					"settings":
+					{
+						"buffer_size": 683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								682,
+								682
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/search.rb",
+					"settings":
+					{
+						"buffer_size": 334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								334
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/esv_strategy.rb",
+					"settings":
+					{
+						"buffer_size": 1009,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								516,
+								516
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 5,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/word_tokenizer.rb",
+					"settings":
+					{
+						"buffer_size": 3051,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								553,
+								553
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/controllers/memory_search_controller.rb",
+					"settings":
+					{
+						"buffer_size": 424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								424,
+								424
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 8,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/models/word_tokenizer_spec.rb",
+					"settings":
+					{
+						"buffer_size": 3148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1339,
+								1339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 329,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/factories.rb",
+					"settings":
+					{
+						"buffer_size": 82,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/public/stylesheets/sass/application.sass",
+					"settings":
+					{
+						"buffer_size": 3225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1036,
+								1036
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/Syntaxes/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 1057,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 6,
 			"sheets":
 			[
+				{
+					"buffer": 11,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/views/layouts/application.html.haml",
+					"settings":
+					{
+						"buffer_size": 748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								420,
+								420
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/Syntaxes/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/db/migrate/20110328133218_create_facts.rb",
+					"settings":
+					{
+						"buffer_size": 284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 0,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/Gemfile",
+					"settings":
+					{
+						"buffer_size": 1554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 238,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/config/database.yml",
+					"settings":
+					{
+						"buffer_size": 226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/controllers/memory_search_controller.rb",
+					"settings":
+					{
+						"buffer_size": 424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								424,
+								424
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/esv_strategy.rb",
+					"settings":
+					{
+						"buffer_size": 1009,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								426
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 64,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 15,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/db/seeds.rb",
+					"settings":
+					{
+						"buffer_size": 39418,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 1912,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/spec_helper.rb",
+					"settings":
+					{
+						"buffer_size": 1078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								718,
+								718
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/integration/landing_search_spec.rb",
+					"settings":
+					{
+						"buffer_size": 618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								303,
+								303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -229,7 +959,7 @@
 		"rows":
 		[
 			0,
-			0.5,
+			0.523712183156,
 			1
 		]
 	},
@@ -240,6 +970,94 @@
 		"height": 0,
 		"selected_items":
 		[
+			[
+				"app.sa",
+				"stickymemory/public/stylesheets/sass/application.sass"
+			],
+			[
+				"memsear",
+				"stickymemory/app/controllers/memory_search_controller.rb"
+			],
+			[
+				"esv",
+				"stickymemory/app/models/esv_strategy.rb"
+			],
+			[
+				"factor",
+				"stickymemory/spec/factories.rb"
+			],
+			[
+				"data",
+				"stickymemory/config/database.yml"
+			],
+			[
+				"wordto",
+				"stickymemory/spec/models/word_tokenizer_spec.rb"
+			],
+			[
+				"esvs",
+				"stickymemory/app/models/esv_strategy.rb"
+			],
+			[
+				"searchcon",
+				"stickymemory/app/controllers/memory_search_controller.rb"
+			],
+			[
+				"search",
+				"stickymemory/app/models/search.rb"
+			],
+			[
+				"biblebo",
+				"stickymemory/app/models/bible_book.rb"
+			],
+			[
+				"bibchsp",
+				"stickymemory/spec/models/bible_chapter_spec.rb"
+			],
+			[
+				"biblech",
+				"stickymemory/app/models/bible_chapter.rb"
+			],
+			[
+				"lan",
+				"stickymemory/spec/integration/landing_search_spec.rb"
+			],
+			[
+				"spech",
+				"stickymemory/spec/spec_helper.rb"
+			],
+			[
+				"gemf",
+				"stickymemory/Gemfile"
+			],
+			[
+				"factsp",
+				"stickymemory/spec/models/fact_spec.rb"
+			],
+			[
+				"fact",
+				"stickymemory/app/models/fact.rb"
+			],
+			[
+				"rou",
+				"stickymemory/config/routes.rb"
+			],
+			[
+				"see",
+				"stickymemory/db/seeds.rb"
+			],
+			[
+				"index",
+				"stickymemory/app/views/home/index.html.haml"
+			],
+			[
+				"app.h",
+				"stickymemory/app/views/layouts/application.html.haml"
+			],
+			[
+				"ge",
+				"stickymemory/Gemfile"
+			],
 			[
 				"gemfi",
 				"/Users/phertler/Software/Ruby/stickymemory/Gemfile"
@@ -269,16 +1087,8 @@
 				"config/assets.yml"
 			],
 			[
-				"gemf",
-				"Gemfile"
-			],
-			[
 				"asets",
 				"config/assets.yml"
-			],
-			[
-				"index",
-				"app/views/home/index.html.haml"
 			],
 			[
 				"app.j",
@@ -341,20 +1151,12 @@
 				"Gemfile"
 			],
 			[
-				"app.h",
-				"app/views/layouts/application.html.haml"
-			],
-			[
 				"auth",
 				"app/models/authentication.rb"
 			],
 			[
 				"user.r",
 				"/Users/phertler/Software/Ruby/seasonalbids/app/models/user.rb"
-			],
-			[
-				"data",
-				"config/database.yml"
 			],
 			[
 				"om",
@@ -679,42 +1481,6 @@
 			[
 				"company",
 				"app/controllers/company_manager_profiles_controller.rb"
-			],
-			[
-				"compconsp",
-				"spec/controllers/company_manager_profiles_controller_spec.rb"
-			],
-			[
-				"company",
-				"spec/models/company_manager_profile_spec.rb"
-			],
-			[
-				"homecon",
-				"app/controllers/home_controller.rb"
-			],
-			[
-				"role",
-				"app/models/role.rb"
-			],
-			[
-				"home",
-				"app/controllers/home_controller.rb"
-			],
-			[
-				"bids.",
-				"public/javascripts/bids.js"
-			],
-			[
-				"contprofsp",
-				"spec/models/contractor_profile_spec.rb"
-			],
-			[
-				"remove",
-				"db/migrate/20110220012359_remove_associations.rb"
-			],
-			[
-				"index.ham",
-				"app/views/bid_properties/index.html.haml"
 			]
 		],
 		"width": 0

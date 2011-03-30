@@ -69,6 +69,18 @@ a
     font-size: 30px
     color: #AA0000
 
+.first-letter-choice
+  margin-top: -5px
+  font-size: 14px
+  margin: -5px 0 20px 0
+
+
+span.rest-of-word
+  position: relative
+  &.to-back
+    z-index: -3
+  &.to-front
+    z-index: 3
 .search-form button
   margin-left: 30px
 .search-form, .search-results
@@ -80,7 +92,8 @@ a
   -moz-border-radius-bottomright: 10px
   -moz-border-radius-topleft: 10px
   -moz-border-radius-topright: 10px
-  background: #EBE3D1 none repeat scroll 0 0
+  //background: #EBE3D1 none repeat scroll 0 0
+  background: url(/images/bg.gif) repeat 0 0
   border: 5px solid #CBC2AE
   padding: 30px 35px
 
