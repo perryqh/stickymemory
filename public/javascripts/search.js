@@ -9,11 +9,15 @@
       var searchResult = response['search_result'];
       if(null != searchResult) {
         $('#home .search-results .header').html(searchResult['header']);
+
         $('#home .search-results .text').html(searchResult['text']);
 
         if(!$('#home .search-results').is(':visible')) {
           $('#home .search-results').show('slide', {direction: 'down'}, 1000);
         }
+
+        $('.search-results .first-letter-choice input[type=checkbox]').attr('checked', false);
+        $.onlyShowFirstLetters(false);
       }
     }
   };
