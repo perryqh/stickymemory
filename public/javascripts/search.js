@@ -58,12 +58,13 @@
 
   $.onlyShowFirstLetters = function(onlyShow) {
     if(onlyShow) {
-      $('span.rest-of-word').removeClass('to-front');
-      $('span.rest-of-word').addClass('to-back');
+      $('.search-results span.rest-of-word').animate({opacity: '0.0'}, 1000, function() {
+      });
     }
     else {
-      $('span.rest-of-word').removeClass('to-back');
-      $('span.rest-of-word').addClass('to-front');
+      $('.search-results span.rest-of-word').animate({opacity: '1.0'}, 1000, function() {
+        $(this).css('filter', 'none');
+      });
     }
   };
 

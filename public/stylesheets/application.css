@@ -64,18 +64,15 @@ a {
   .search-results .header {
     font-size: 30px;
     color: #aa0000; }
+  .search-results span.rest-of-word {
+    opacity: 0; }
+  .search-results span.first.accent {
+    font-weight: bold; }
 
 .first-letter-choice {
   margin-top: -5px;
   font-size: 14px;
   margin: -5px 0 20px 0; }
-
-span.rest-of-word {
-  position: relative; }
-  span.rest-of-word.to-back {
-    z-index: -3; }
-  span.rest-of-word.to-front {
-    z-index: 3; }
 
 .search-form button {
   margin-left: 30px; }
@@ -89,7 +86,7 @@ span.rest-of-word {
   -moz-border-radius-bottomright: 10px;
   -moz-border-radius-topleft: 10px;
   -moz-border-radius-topright: 10px;
-  background: url(/images/bg.gif) repeat 0 0;
+  background: #ebe3d1 none repeat scroll 0 0;
   border: 5px solid #cbc2ae;
   padding: 30px 35px; }
   .search-form label, .search-results label {
