@@ -8,8 +8,21 @@ describe BibleBook do
 
   describe 'unique name' do
     before(:each) do
-      #Factory.create(:bible_book)
+      Factory.create(:bible_book)
     end
     should_validate_uniqueness_of :name
+  end
+
+  describe "books between" do
+    it "should return the same book if start and end are the same" do
+      books = BibleBook.books_between(2, 2)
+      books.length.should eql 1
+      books.first.name.should eql 'Exodus'
+    end
+    it "should return books between inclusive" do
+      books = BibleBook.books_between(25, 30)
+      books.length.should eql 6
+      books.collect(&:name).should eql ['Lamentations', 'Ezekiel', 'Daniel', 'Hosea', 'Joel', 'Amos']
+    end
   end
 end

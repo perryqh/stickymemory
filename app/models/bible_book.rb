@@ -23,4 +23,14 @@ class BibleBook < ActiveRecord::Base
   validates :word_count, :presence => true
 
   has_many :bible_chapters
+
+  def bible_chapter_by_number(num)
+    self.bible_chapters.detect{|chapter| chapter.chapter_num == num}
+  end
+
+  class << self
+    def books_between(start_book_num, end_book_num)
+      where("book_num >= :start AND book_num <= :end", {:start => start_book_num, :end => end_book_num}).order('book_num ASC')
+    end
+  end
 end
