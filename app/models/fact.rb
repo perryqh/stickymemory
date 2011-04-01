@@ -5,7 +5,7 @@
 #
 #  id         :integer         not null, primary key
 #  user_id    :integer
-#  type       :string(255)
+#  ftype       :string(255)
 #  question   :string(255)
 #  header     :string(255)
 #  text       :text
@@ -15,9 +15,9 @@
 
 class Fact < ActiveRecord::Base
   WESTMINSTER_SHORTER = 'shorter'
-  attr_accessible :type, :question, :header, :text
+  attr_accessible :ftype, :question, :header, :text
 
-  validates :type, :presence => true
+  validates :ftype, :presence => true
   validates :question, :presence => true
   validates :header, :presence => true
   validates :text, :presence => true

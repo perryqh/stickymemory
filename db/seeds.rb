@@ -1,6 +1,6 @@
 
 def create_fact(number, question, answer)
-  Fact.create(:type => Fact::WESTMINSTER_SHORTER, :question => question, :header => number, :text => answer)
+  Fact.create(:ftype => Fact::WESTMINSTER_SHORTER, :question => question, :header => number, :text => answer)
 end
 
 create_fact("1", "What is the chief end of man?" , "Man's chief end is to glorify God, and to enjoy him forever.")
