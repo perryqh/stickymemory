@@ -18,6 +18,7 @@ group :development do
   gem 'mongrel',           '~>1.2.0.pre2'
   gem 'heroku',            '>= 1.18.3'
   gem 'annotate-models',   '>= 1.0.4'
+  gem 'database_cleaner',  '>= 0.6.6'
 end
 
 group :test do

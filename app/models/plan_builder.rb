@@ -88,7 +88,7 @@ class PlanBuilder
   end
 
   def next_book(current_book)
-    self.books_to_divide.detect{|book| book.book_num == (current_book.book_num + 1)}
+    self.books_to_divide.detect{|book| book.num == (current_book.num + 1)}
   end
 
   def coordinate_to_s(coordinate)
@@ -111,7 +111,7 @@ class PlanBuilder
     if self.current_coordinate
       total = 0
       self.books_to_divide.each do |cur_book|
-        break if cur_book.book_num == self.current_coordinate[:book].book_num
+        break if cur_book.num == self.current_coordinate[:book].num
         total += cur_book.verse_count
       end
       self.current_coordinate[:book].bible_chapters.each do |cur_chapter|

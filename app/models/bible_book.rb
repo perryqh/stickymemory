@@ -16,7 +16,7 @@
 class BibleBook < ActiveRecord::Base
   attr_accessible :num, :name, :chapter_count, :verse_count, :word_count
 
-  validates :num, :presence => true
+  validates :num, :presence => true, :uniqueness => true
   validates :name, :presence => true
   validates :chapter_count, :presence => true
   validates :verse_count, :presence => true
@@ -30,7 +30,7 @@ class BibleBook < ActiveRecord::Base
 
   class << self
     def books_between(start_book_num, end_book_num)
-      where("book_num >= :start AND book_num <= :end", {:start => start_book_num, :end => end_book_num}).order('book_num ASC')
+      where("num >= :start AND num <= :end", {:start => start_book_num, :end => end_book_num}).order('num ASC')
     end
   end
 end
