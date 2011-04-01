@@ -1,6 +1,6 @@
 
 def create_fact(number, question, answer)
-  Fact.create(:ftype => Fact::WESTMINSTER_SHORTER, :question => question, :header => number, :text => answer)
+  Fact.create(:ftype => Fact::WESTMINSTER_SHORTER, :question => question, :header => number, :text => answer) unless Fact.find_by_header(number)
 end
 
 create_fact("1", "What is the chief end of man?" , "Man's chief end is to glorify God, and to enjoy him forever.")
@@ -111,11 +111,13 @@ create_fact("105", "What do we pray for in the fifth petition?", "In the fifth p
 create_fact("106", "What do we pray for in the sixth petition?", "In the sixth petition, which is, And lead us not into temptation, but deliver us from evil, we pray that God would either keep us from being tempted to sin, or support and deliver us when we are tempted.")
 
 def create_book(num, name, chapter_count, verse_count, word_count, chapter_hash)
-  bk = BibleBook.create(:num => num, :name => name, :chapter_count => chapter_count, :verse_count => verse_count, :word_count => word_count)
-  chapter_hash.keys.sort.each do |key|
-    bk.bible_chapters.build(:chapter_num => key, :verse_count => chapter_hash[key])
+  unless BibleBook.find_by_num(num)
+    bk = BibleBook.create(:num => num, :name => name, :chapter_count => chapter_count, :verse_count => verse_count, :word_count => word_count)
+    chapter_hash.keys.sort.each do |key|
+      bk.bible_chapters.build(:chapter_num => key, :verse_count => chapter_hash[key])
+    end
+    bk.save!
   end
-  bk.save!
 end
 
 create_book(1, 'Genesis', 50, 1533, 38262, {49 => 33,38 => 30,27 => 46,16 => 16,5 => 32,44 => 34,33 => 20,22 => 24,11 => 32,50 => 26,39 => 23,28 => 22,17 => 27,6 => 22,45 => 28,34 => 31,23 => 20,12 => 20,1 => 31,40 => 23,29 => 35,18 => 33,7 => 24,46 => 34,35 => 29,24 => 67,13 => 18,2 => 25,41 => 57,30 => 43,19 => 38,8 => 22,47 => 31,36 => 43,25 => 34,14 => 24,3 => 24,42 => 38,31 => 55,20 => 18,9 => 29,48 => 22,37 => 36,26 => 35,15 => 21,4 => 26,43 => 34,32 => 32,21 => 34,10 => 32})
