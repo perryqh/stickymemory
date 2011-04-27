@@ -11,7 +11,7 @@
 			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/Gemfile",
 			"settings":
 			{
-				"buffer_size": 1554,
+				"buffer_size": 1614,
 				"line_ending": "Unix"
 			}
 		},
@@ -19,7 +19,7 @@
 			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/fact.rb",
 			"settings":
 			{
-				"buffer_size": 585,
+				"buffer_size": 588,
 				"line_ending": "Unix"
 			}
 		},
@@ -35,7 +35,7 @@
 			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/bible_book.rb",
 			"settings":
 			{
-				"buffer_size": 683,
+				"buffer_size": 1010,
 				"line_ending": "Unix"
 			}
 		},
@@ -80,6 +80,14 @@
 			}
 		},
 		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 150,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/models/word_tokenizer_spec.rb",
 			"settings":
 			{
@@ -91,7 +99,7 @@
 			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/factories.rb",
 			"settings":
 			{
-				"buffer_size": 82,
+				"buffer_size": 389,
 				"line_ending": "Unix"
 			}
 		},
@@ -100,6 +108,14 @@
 			"settings":
 			{
 				"buffer_size": 3399,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Documents/teladoc.txt",
+			"settings":
+			{
+				"buffer_size": 578,
 				"line_ending": "Unix"
 			}
 		},
@@ -116,14 +132,6 @@
 			"settings":
 			{
 				"buffer_size": 748,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 150,
 				"line_ending": "Unix"
 			}
 		},
@@ -152,18 +160,18 @@
 			}
 		},
 		{
-			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/db/seeds.rb",
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/spec_helper.rb",
 			"settings":
 			{
-				"buffer_size": 39418,
+				"buffer_size": 1347,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/spec_helper.rb",
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/db/seeds.rb",
 			"settings":
 			{
-				"buffer_size": 1078,
+				"buffer_size": 39506,
 				"line_ending": "Unix"
 			}
 		},
@@ -172,6 +180,14 @@
 			"settings":
 			{
 				"buffer_size": 618,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/models/bible_book_spec.rb",
+			"settings":
+			{
+				"buffer_size": 899,
 				"line_ending": "Unix"
 			}
 		}
@@ -351,7 +367,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -359,15 +375,15 @@
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/Gemfile",
 					"settings":
 					{
-						"buffer_size": 1554,
+						"buffer_size": 1614,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								585,
+								585
 							]
 						],
 						"settings":
@@ -377,7 +393,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0,
-						"translation.y": 275,
+						"translation.y": 102,
 						"zoom_level": 1
 					},
 					"type": "text"
@@ -387,7 +403,7 @@
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/fact.rb",
 					"settings":
 					{
-						"buffer_size": 585,
+						"buffer_size": 588,
 						"regions":
 						{
 						},
@@ -439,20 +455,22 @@
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/models/bible_book.rb",
 					"settings":
 					{
-						"buffer_size": 683,
+						"buffer_size": 1010,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								682,
-								682
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0,
 						"translation.y": 0,
@@ -597,15 +615,41 @@
 						"zoom_level": 1
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/models/word_tokenizer_spec.rb",
 					"settings":
 					{
@@ -633,19 +677,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/factories.rb",
 					"settings":
 					{
-						"buffer_size": 82,
+						"buffer_size": 389,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								82,
-								82
+								0,
+								0
 							]
 						],
 						"settings":
@@ -659,7 +703,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/public/stylesheets/sass/application.sass",
 					"settings":
 					{
@@ -683,8 +727,8 @@
 						"selection":
 						[
 							[
-								1085,
-								1085
+								1128,
+								1128
 							]
 						],
 						"settings":
@@ -700,7 +744,33 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
+					"file": "/Users/phertler/Documents/teladoc.txt",
+					"settings":
+					{
+						"buffer_size": 578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								475,
+								475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/controllers/memory_search_controller_spec.rb",
 					"settings":
 					{
@@ -728,11 +798,11 @@
 			]
 		},
 		{
-			"selected": 7,
+			"selected": 8,
 			"sheets":
 			[
 				{
-					"buffer": 13,
+					"buffer": 15,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/app/views/layouts/application.html.haml",
 					"settings":
 					{
@@ -760,7 +830,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 9,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/config/routes.rb",
 					"settings":
 					{
@@ -786,7 +856,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/db/migrate/20110328133218_create_facts.rb",
 					"settings":
 					{
@@ -818,7 +888,7 @@
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/Gemfile",
 					"settings":
 					{
-						"buffer_size": 1554,
+						"buffer_size": 1614,
 						"regions":
 						{
 						},
@@ -842,7 +912,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/config/database.yml",
 					"settings":
 					{
@@ -922,7 +992,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 18,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/public/javascripts/search.js",
 					"settings":
 					{
@@ -933,8 +1003,8 @@
 						"selection":
 						[
 							[
-								2026,
-								2026
+								1785,
+								1785
 							]
 						],
 						"settings":
@@ -948,19 +1018,47 @@
 						"zoom_level": 1
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/spec_helper.rb",
+					"settings":
+					{
+						"buffer_size": 1347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								515,
+								515
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
-					"buffer": 18,
+					"buffer": 20,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/db/seeds.rb",
 					"settings":
 					{
-						"buffer_size": 39418,
+						"buffer_size": 39506,
 						"regions":
 						{
 						},
@@ -986,15 +1084,15 @@
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/spec_helper.rb",
 					"settings":
 					{
-						"buffer_size": 1078,
+						"buffer_size": 1347,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								718,
-								718
+								1347,
+								1347
 							]
 						],
 						"settings":
@@ -1010,7 +1108,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 21,
 					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/integration/landing_search_spec.rb",
 					"settings":
 					{
@@ -1021,8 +1119,8 @@
 						"selection":
 						[
 							[
-								303,
-								303
+								553,
+								553
 							]
 						],
 						"settings":
@@ -1033,6 +1131,34 @@
 						},
 						"translation.x": 0,
 						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/Users/phertler/Software/Ruby/hertler.org/stickymemory/spec/models/bible_book_spec.rb",
+					"settings":
+					{
+						"buffer_size": 899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								439,
+								439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 15,
+						"translation.y": 50,
 						"zoom_level": 1
 					},
 					"type": "text"
@@ -1089,6 +1215,22 @@
 		"height": 0,
 		"selected_items":
 		[
+			[
+				"spec",
+				"stickymemory/spec/spec_helper.rb"
+			],
+			[
+				"route",
+				"stickymemory/config/routes.rb"
+			],
+			[
+				"spech",
+				"stickymemory/spec/spec_helper.rb"
+			],
+			[
+				"ge",
+				"stickymemory/Gemfile"
+			],
 			[
 				"app.sas",
 				"stickymemory/public/stylesheets/sass/application.sass"
@@ -1162,10 +1304,6 @@
 				"stickymemory/spec/integration/landing_search_spec.rb"
 			],
 			[
-				"spech",
-				"stickymemory/spec/spec_helper.rb"
-			],
-			[
 				"gemf",
 				"stickymemory/Gemfile"
 			],
@@ -1188,10 +1326,6 @@
 			[
 				"app.h",
 				"stickymemory/app/views/layouts/application.html.haml"
-			],
-			[
-				"ge",
-				"stickymemory/Gemfile"
 			],
 			[
 				"gemfi",
@@ -1288,10 +1422,6 @@
 			[
 				"om",
 				"config/initializers/omniauth.rb"
-			],
-			[
-				"route",
-				"config/routes.rb"
 			],
 			[
 				"cr",
@@ -1596,10 +1726,6 @@
 			[
 				"companmanproconsp",
 				"spec/controllers/company_manager_profiles_controller_spec.rb"
-			],
-			[
-				"companmanpro",
-				"app/controllers/company_manager_profiles_controller.rb"
 			]
 		],
 		"width": 0

@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'rails',             '3.0.5'
+gem 'rails',             '3.0.7'
+gem 'cancan',       '~> 1.6.4'
 gem 'pg',                '~>0.9.0'
 gem 'haml',              '~>3.0.25'
 gem 'simple-navigation', '~>3.1.0'
@@ -23,7 +24,7 @@ end
 
 group :test do
   gem 'metric_fu',                '>= 2.0.1'
-  gem 'factory_girl_rails',                '>= 1.0.1'
+  gem 'factory_girl_rails',       '>= 1.0.1'
   gem 'rspec',                    '>= 2.5.0'
   gem 'rspec-rails',              '>= 2.5.0'
   gem 'rspec-core',               '>= 2.5.1'
